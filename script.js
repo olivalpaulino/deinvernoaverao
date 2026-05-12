@@ -145,6 +145,14 @@ products.push({
     link: "https://meli.la/1rXzNw2"
 });
 
+products.push({
+    id: 17,
+    title: "Sobretudo Feminino Manga Longa Botões Tendência",
+    price: "R$ 142,40",
+    image: "src/sobretudo-vermelho.webp",
+    link: "https://meli.la/2jN9K3M"
+});
+
 const productsGrid = document.getElementById('products-grid');
 
 // Função para renderizar os produtos na tela
