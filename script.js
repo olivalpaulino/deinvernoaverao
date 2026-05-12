@@ -137,6 +137,14 @@ products.push({
     link: "https://meli.la/2fFdBg7"
 });
 
+products.push({
+    id: 16,
+    title: "Casaco Feminino Inverno Jaqueta Suede Camurça Moda",
+    price: "R$ 106,88",
+    image: "src/jaqueta-suede.webp",
+    link: "https://meli.la/1rXzNw2"
+});
+
 const productsGrid = document.getElementById('products-grid');
 
 // Função para renderizar os produtos na tela
