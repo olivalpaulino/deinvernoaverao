@@ -97,6 +97,14 @@ products.push({
     link: "https://meli.la/22oqnvJ"
 });
 
+products.push({
+    id: 11,
+    title: "Camiseta Blusa Dry Fit Lisa Feminina Academia Proteção Uv 50",
+    price: "R$ 31,74",
+    image: "src/blusa-dry-fit.webp",
+    link: "https://meli.la/2YkpBmv"
+});
+
 const productsGrid = document.getElementById('products-grid');
 
 // Função para renderizar os produtos na tela
