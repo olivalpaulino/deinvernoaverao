@@ -89,6 +89,14 @@ products.push({
     link: "https://meli.la/17RWBEk"
 });
 
+products.push({
+    id: 10,
+    title: "Blusa Cropped Rhero Jeans Lançamento",
+    price: "R$ 74,62",
+    image: "src/cropped-rheno.webp",
+    link: "https://meli.la/22oqnvJ"
+});
+
 const productsGrid = document.getElementById('products-grid');
 
 // Função para renderizar os produtos na tela
