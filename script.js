@@ -4,7 +4,8 @@
 const products = [];
 
 // Gerando 22 produtos de exemplo como solicitado
-for(let i = 1; i <= 22; i++) {
+/*
+for(let i = 1; i <= 8; i++) {
     products.push({
         id: i,
         title: `Vestido Elegante Feminino ${i} - Coleção Inverno a Verão`,
@@ -12,18 +13,73 @@ for(let i = 1; i <= 22; i++) {
         image: "produto.png",
         link: "https://seulinkdeafiliado.com.br/produto" + i // Coloque seu link de afiliado aqui
     });
-}
+} */
 
 // Você pode adicionar produtos manualmente assim:
-/*
+
 products.push({
-    id: 23,
-    title: "Blusa de Frio Inverno",
-    price: "R$ 120,00",
-    image: "produto.png",
-    link: "https://seulinkdeafiliado.com.br/blusa"
+    id: 1,
+    title: "Camiseta Brasil Copa 2026 Esportiva Dryfit 100% Poliéster",
+    price: "R$ 63,91",
+    image: "src/camisa-brasil-azul.webp",
+    link: "https://meli.la/2dDKmH8"
 });
-*/
+
+products.push({
+    id: 2,
+    title: "Camiseta T Shirt Estampa Ícones Brasil Tropical Algodão",
+    price: "R$ 36,76",
+    image: "src/camisa-brasil-amarela.webp",
+    link: "https://meli.la/1nh9RZN"
+});
+
+products.push({
+    id: 3,
+    title: "Vestido Feminino Curto Copa Do Mundo Seleção Brasil Carnaval",
+    price: "R$ 86,06",
+    image: "src/vestido-brasil-amarelo.webp",
+    link: "https://meli.la/2FRSDEt"
+});
+
+products.push({
+    id: 4,
+    title: "Sobretodo Gizetty Tecido Couro Moda Festa Balada Inverno",
+    price: "R$ 123,49",
+    image: "src/sobretudo-gizetty.webp",
+    link: "https://meli.la/2ycc9Q6"
+});
+
+products.push({
+    id: 5,
+    title: "Conjunto Fitness Blackout Top Shorts Meia Coxa Cintura Alta",
+    price: "R$ 69,90",
+    image: "src/conjunt-fitness-blackout.webp",
+    link: "https://meli.la/2VPsuGE"
+});
+
+products.push({
+    id: 6,
+    title: "Conjunto Fitness Virginia Top Shorts Meia Coxa Cintura Alta",
+    price: "R$ 69,00",
+    image: "src/conjunto-fitness-virginia.webp",
+    link: "https://meli.la/1XnhWyw"
+});
+
+products.push({
+    id: 7,
+    title: "Blusa Regatinha Feminina Gola 2 Em 1 Drapeada Casual Premium",
+    price: "R$ 40,01",
+    image: "src/blusa-regatinha.webp",
+    link: "https://meli.la/2ak688J"
+});
+
+products.push({
+    id: 8,
+    title: "Regata Feminina Original Pit Bull Casual Conforto Qualidade",
+    price: "R$ 59,90",
+    image: "src/blusa-regatinha-rosa.webp",
+    link: "https://meli.la/26gXJof"
+});
 
 const productsGrid = document.getElementById('products-grid');
 
