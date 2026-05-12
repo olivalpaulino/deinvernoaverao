@@ -129,6 +129,14 @@ products.push({
     link: "https://meli.la/1Mt8e7K"
 });
 
+products.push({
+    id: 15,
+    title: "Blusa Feminina Gola Polo De Trico Listrada Manga Longa",
+    price: "R$ 69,90",
+    image: "src/blusa-manga-gola-polo.webp",
+    link: "https://meli.la/2fFdBg7"
+});
+
 const productsGrid = document.getElementById('products-grid');
 
 // Função para renderizar os produtos na tela
