@@ -81,6 +81,14 @@ products.push({
     link: "https://meli.la/26gXJof"
 });
 
+products.push({
+    id: 9,
+    title: "Regata Cropped Feminina Em Ribana Hering",
+    price: "R$ 79,90",
+    image: "src/regata-cropped.webp",
+    link: "https://meli.la/17RWBEk"
+});
+
 const productsGrid = document.getElementById('products-grid');
 
 // Função para renderizar os produtos na tela
