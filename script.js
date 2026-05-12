@@ -121,6 +121,14 @@ products.push({
     link: "https://meli.la/1FZwvxb"
 });
 
+products.push({
+    id: 14,
+    title: "Blazer Feminino Social Princesa Manga Bufante Moderno Clean",
+    price: "R$ 69,70",
+    image: "src/blazzer-vermelho.webp",
+    link: "https://meli.la/1Mt8e7K"
+});
+
 const productsGrid = document.getElementById('products-grid');
 
 // Função para renderizar os produtos na tela
