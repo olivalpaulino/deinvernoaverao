@@ -112,6 +112,15 @@ products.push({
     image: "src/cropped-duna.webp",
     link: "https://meli.la/27jYXgQ"
 });
+
+products.push({
+    id: 13,
+    title: "Blusa Feminina Bata Manga Longa Bufante Crepe Elegante",
+    price: "R$ 39,77",
+    image: "src/blusa-feminina-roxa.webp",
+    link: "https://meli.la/1FZwvxb"
+});
+
 const productsGrid = document.getElementById('products-grid');
 
 // Função para renderizar os produtos na tela
