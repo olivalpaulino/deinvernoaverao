@@ -105,6 +105,13 @@ products.push({
     link: "https://meli.la/2YkpBmv"
 });
 
+products.push({
+    id: 12,
+    title: "Camisa Cropped Duna Blusa Transpassada Manga Longa Dia A Dia",
+    price: "R$ 31,74",
+    image: "src/cropped-duna.webp",
+    link: "https://meli.la/27jYXgQ"
+});
 const productsGrid = document.getElementById('products-grid');
 
 // Função para renderizar os produtos na tela
