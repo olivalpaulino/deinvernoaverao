@@ -153,6 +153,14 @@ products.push({
     link: "https://meli.la/2jN9K3M"
 });
 
+products.push({
+    id: 18,
+    title: "Conjunto Free Top E Short Feminino Omne Fitwear",
+    price: "R$ 108,63",
+    image: "src/top-short-rosa.webp",
+    link: "https://meli.la/14GRoJ9"
+});
+
 const productsGrid = document.getElementById('products-grid');
 
 // Função para renderizar os produtos na tela
