@@ -185,6 +185,14 @@ products.push({
     link: "https://meli.la/1JNKgHT"
 });
 
+products.push({
+    id: 22,
+    title: "Pijama De Frio Inverno Ultra Soft Peluciado Com Estampas",
+    price: "R$ 69,99",
+    image: "src/pjama-frio-azul.webp",
+    link: "https://meli.la/2CQH97d"
+});
+
 
 const productsGrid = document.getElementById('products-grid');
 
