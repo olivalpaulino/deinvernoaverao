@@ -177,6 +177,15 @@ products.push({
     link: "https://meli.la/2Bs2hwn"
 });
 
+products.push({
+    id: 21,
+    title: "Blazer Feminino Alfaiataria Terninho Social Com Botões",
+    price: "R$ 58,19",
+    image: "src/blazer-rosa.webp",
+    link: "https://meli.la/1JNKgHT"
+});
+
+
 const productsGrid = document.getElementById('products-grid');
 
 // Função para renderizar os produtos na tela
