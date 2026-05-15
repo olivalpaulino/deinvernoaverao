@@ -169,6 +169,14 @@ products.push({
     link: "https://meli.la/2GpQNrf"
 });
 
+products.push({
+    id: 20,
+    title: "Conjunto Fitness Feminino + Camiseta Brinde Roupa Academia",
+    price: "R$ 59,17",
+    image: "src/conjunto-top-fitness-black.webp",
+    link: "https://meli.la/2Bs2hwn"
+});
+
 const productsGrid = document.getElementById('products-grid');
 
 // Função para renderizar os produtos na tela
