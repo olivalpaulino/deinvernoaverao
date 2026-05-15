@@ -161,6 +161,14 @@ products.push({
     link: "https://meli.la/14GRoJ9"
 });
 
+products.push({
+    id: 19,
+    title: "Conjunto Fitness Feminino Elegance Preto P/ Academia Look",
+    price: "R$ 71,90",
+    image: "src/conjunto-fitness-top-e-short.webp",
+    link: "https://meli.la/2GpQNrf"
+});
+
 const productsGrid = document.getElementById('products-grid');
 
 // Função para renderizar os produtos na tela
