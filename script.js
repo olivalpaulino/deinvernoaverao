@@ -209,6 +209,14 @@ products.push({
     link: "https://meli.la/2pZ48aN"
 });
 
+products.push({
+    id: 25,
+    title: "Casaco Teddy Feminino Blusa Frio Curto Branco Preto Marrom",
+    price: "R$ 54,99",
+    image: "src/casaco-teddy.webp",
+    link: "https://meli.la/1dYDhQu"
+});
+
 const productsGrid = document.getElementById('products-grid');
 
 // Função para renderizar os produtos na tela
