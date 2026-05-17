@@ -193,6 +193,14 @@ products.push({
     link: "https://meli.la/2CQH97d"
 });
 
+products.push({
+    id: 23,
+    title: "Kit Conjunto Roupa Academia Treino Premium Calça Leg E Top",
+    price: "R$ 113,89",
+    image: "src/top-leg-vinho.webp",
+    link: "https://meli.la/1NQiobe"
+});
+
 
 const productsGrid = document.getElementById('products-grid');
 
