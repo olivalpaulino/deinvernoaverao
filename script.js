@@ -217,6 +217,14 @@ products.push({
     link: "https://meli.la/1dYDhQu"
 });
 
+products.push({
+    id: 26,
+    title: "Conjunto Suplex Blackout Zero Transparência Legging E Croppe",
+    price: "R$ 56,02",
+    image: "src/conjunto-suplex.webp",
+    link: "https://meli.la/1mSGUqr"
+});
+
 const productsGrid = document.getElementById('products-grid');
 
 // Função para renderizar os produtos na tela
