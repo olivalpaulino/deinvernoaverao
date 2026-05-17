@@ -201,6 +201,13 @@ products.push({
     link: "https://meli.la/1NQiobe"
 });
 
+products.push({
+    id: 24,
+    title: "Pijama Macacão Kigurumi Stitch Feminino Adulto Plush Zíper",
+    price: "R$ 91,91",
+    image: "src/macacao-stich.webp",
+    link: "https://meli.la/2pZ48aN"
+});
 
 const productsGrid = document.getElementById('products-grid');
 
