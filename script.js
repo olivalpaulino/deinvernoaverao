@@ -225,6 +225,14 @@ products.push({
     link: "https://meli.la/1mSGUqr"
 });
 
+products.push({
+    id: 27,
+    title: "Saia Festa Junina Xadrez Arraiá São João Flanelada Rodada",
+    price: "R$ 59,90",
+    image: "src/saia-rodada.webp",
+    link: "https://meli.la/1HDkjd6"
+});
+
 const productsGrid = document.getElementById('products-grid');
 
 // Função para renderizar os produtos na tela
