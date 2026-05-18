@@ -249,6 +249,14 @@ products.push({
     link: "https://meli.la/1UHpd4f"
 });
 
+products.push({
+    id: 30,
+    title: "Kit 3 Camisetas Meninas Super Poderosa Docinho Lindinha Flor",
+    price: "R$ 75,93",
+    image: "src/kit-meninas-poderosas.webp",
+    link: "https://meli.la/2aamQnu"
+});
+
 
 const productsGrid = document.getElementById('products-grid');
 
