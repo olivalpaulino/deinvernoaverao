@@ -241,6 +241,15 @@ products.push({
     link: "https://meli.la/2ai2NoJ"
 });
 
+products.push({
+    id: 29,
+    title: "Camiseta Meninas Super Poderosas Oversized",
+    price: "R$ 36,00",
+    image: "src/camisa-menina-poderosa-academia.webp",
+    link: "https://meli.la/1UHpd4f"
+});
+
+
 const productsGrid = document.getElementById('products-grid');
 
 // Função para renderizar os produtos na tela
