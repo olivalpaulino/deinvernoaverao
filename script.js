@@ -233,6 +233,14 @@ products.push({
     link: "https://meli.la/1HDkjd6"
 });
 
+products.push({
+    id: 28,
+    title: "Camiseta Mulher Maravilha Camisa Estampada Super Herói",
+    price: "R$ 58,19",
+    image: "src/mulher-maravilha.webp",
+    link: "https://meli.la/2ai2NoJ"
+});
+
 const productsGrid = document.getElementById('products-grid');
 
 // Função para renderizar os produtos na tela
