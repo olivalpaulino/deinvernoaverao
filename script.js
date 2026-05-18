@@ -257,6 +257,14 @@ products.push({
     link: "https://meli.la/2aamQnu"
 });
 
+products.push({
+    id: 31,
+    title: "Camiseta Feminina Personagem Desenho Filme Algodão Premium",
+    price: "R$ 32,35",
+    image: "src/camisa-stich.webp",
+    link: "https://meli.la/1MzXJQS"
+});
+
 
 const productsGrid = document.getElementById('products-grid');
 
