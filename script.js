@@ -265,6 +265,14 @@ products.push({
     link: "https://meli.la/1MzXJQS"
 });
 
+products.push({
+    id: 32,
+    title: "Conjunto Feminino Fitness Powerslim Top Alça E Short",
+    price: "R$ 109,90",
+    image: "src/roupa-fitness-azul.webp",
+    link: "https://meli.la/2k2J6TV"
+});
+
 
 const productsGrid = document.getElementById('products-grid');
 
