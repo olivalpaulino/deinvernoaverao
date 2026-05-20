@@ -273,6 +273,13 @@ products.push({
     link: "https://meli.la/2k2J6TV"
 });
 
+products.push({
+    id: 33,
+    title: "Jaqueta Em Suede Feminino Elegante Casaco Tendencia Inverno",
+    price: "R$ 96,37",
+    image: "src/jaqueta-suede-preta.webp",
+    link: "https://meli.la/1yjmgfY"
+});
 
 const productsGrid = document.getElementById('products-grid');
 
