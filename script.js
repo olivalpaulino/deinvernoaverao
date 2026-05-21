@@ -281,6 +281,14 @@ products.push({
     link: "https://meli.la/1yjmgfY"
 });
 
+products.push({
+    id: 34,
+    title: "Vestido Midi Cetim Marrom Amarração",
+    price: "R$ 246,90",
+    image: "src/vestido-midi-cetim-marrom.png",
+    link: "https://meli.la/1BsPFim"
+});
+
 const productsGrid = document.getElementById('products-grid');
 
 // Função para renderizar os produtos na tela
