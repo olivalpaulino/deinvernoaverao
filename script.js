@@ -305,6 +305,15 @@ products.push({
     link: "https://meli.la/26zVT73"
 });
 
+products.push({
+    id: 37,
+    title: "Saia Festa Junina Xadrez Rodada Caipira Arraiá Xadrez Curta",
+    price: "R$ 69,90",
+    image: "src/saia-junina-vermelha.png",
+    link: "https://meli.la/2BELGrc"
+});
+
+
 const productsGrid = document.getElementById('products-grid');
 
 // Função para renderizar os produtos na tela
