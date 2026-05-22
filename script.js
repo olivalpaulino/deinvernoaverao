@@ -297,6 +297,14 @@ products.push({
     link: "https://meli.la/2qYYCor"
 });
 
+products.push({
+    id: 36,
+    title: "Saída De Praia Túnica Bata Indiana Feminina Detalhes Bordado",
+    price: "R$ 98,06",
+    image: "src/jaqueta-couro-preta.png",
+    link: "https://meli.la/26zVT73"
+});
+
 const productsGrid = document.getElementById('products-grid');
 
 // Função para renderizar os produtos na tela
