@@ -315,6 +315,38 @@ products.push({
 
 products.push({
     id: 38,
+    title: "Vestido Quadrilha Adulto Xadrez Junino Festa Caipira Luxo",
+    price: "R$ 153,63",
+    image: "src/vestido-junino-vermelho.webp",
+    link: "https://meli.la/1DKRk8J"
+});
+
+products.push({
+    id: 39,
+    title: "Vestido Feminino Xadrez Quadrilha Festa Junina São João",
+    price: "R$ 63,99",
+    image: "src/vestido-junino-vermelho-xadrez.webp",
+    link: "https://meli.la/1RgXCsN"
+});
+
+products.push({
+    id: 40,
+    title: "Vestido Quadrilha Festa Junina Arraiá Caipira Xadrez Rodado",
+    price: "R$ 132,54",
+    image: "src/vestido-junino-branco-preto.webp",
+    link: "https://meli.la/2Mj5Ncc"
+});
+
+products.push({
+    id: 41,
+    title: "Vestido Xadrez-roupas Femininas Pronta Entrega Viscolycra",
+    price: "R$ 142,40",
+    image: "src/vestido-junino-vermelho-xadrez-dark.webp",
+    link: "https://meli.la/1pkXrxx"
+});
+
+products.push({
+    id: 42,
     title: "Biquíni Ripple Frufru Calcinha Sem Amaração Semi Fio",
     price: "R$ 78,99",
     image: "src/biquini-riple.png",
