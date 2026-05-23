@@ -355,6 +355,125 @@ products.push({
 
 products.push({
     id: 43,
+    title: "Vestido Festa Junina Adulto Quadrilha Caipira Chique Luxo",
+    price: "R$ 269,96",
+    image: "src/vestido-junino-azul.webp",
+    link: "https://meli.la/11pShH7"
+});
+
+products.push({
+    id: 44,
+    title: "Vestido Caipira Festa Junina Xadrez Adulto Luxo São João Top",
+    price: "R$ 189,99",
+    image: "src/vestido-junino-roxo.webp",
+    link: "https://meli.la/25nmt9i"
+});
+
+products.push({
+    id: 45,
+    title: "Vestido Caipira Feminino Festa Junina Partylight",
+    price: "R$ 139,91",
+    image: "src/vestido-junino-roxo-preto.webp",
+    link: "https://meli.la/2DEVbtd"
+});
+
+products.push({
+    id: 46,
+    title: "Vestido De Festa Junina Caipira Adulto + Luva",
+    price: "R$ 125,61",
+    image: "src/vestido-junino-vermelho-preto.webp",
+    link: "https://meli.la/2k5u9PV"
+});
+
+products.push({
+    id: 47,
+    title: "Vestido Cangaceira Maria Bonita Adulto - Festa Junina",
+    price: "R$ 151,90",
+    image: "src/vestido-junino-cangaceira.webp",
+    link: "https://meli.la/2fd7Boo"
+});
+
+products.push({
+    id: 48,
+    title: "Vestido Quadrilha Xadrez Festa Junina Caipira Arraiá Luxo",
+    price: "R$ 187,90",
+    image: "src/vestido-junino-marrom.webp",
+    link: "https://meli.la/1Jwjn6W"
+});
+
+products.push({
+    id: 49,
+    title: "Vestido Festa Junina Adulto Feminino Caipira Angelina",
+    price: "R$ 163,66",
+    image: "src/vestido-junino-angelina.webp",
+    link: "https://meli.la/1HV8EfU"
+});
+
+products.push({
+    id: 50,
+    title: "Vestido Festa Junina Adulto Xadrez Quadrilha Luxo Premium",
+    price: "R$ 174,74",
+    image: "src/vestido-junino-florido.webp",
+    link: "https://meli.la/25pSqE1"
+});
+
+products.push({
+    id: 51,
+    title: "Vestido Junino Saia Armada 4 Babados Manga Longa Adulto Luxo",
+    price: "R$ 189,88",
+    image: "src/vestido-junino-marrom-preto.webp",
+    link: "https://meli.la/2uUFtT8"
+});
+
+products.push({
+    id: 52,
+    title: "Vestido De Festa Junina Caipira Lindo Adulto E Luva",
+    price: "R$ 129,90",
+    image: "src/vestido-junino-azul-escuro.webp",
+    link: "https://meli.la/1d4gQkc"
+});
+
+products.push({
+    id: 53,
+    title: "Vestido Quadrilha Xadrez Festa Junina Caipira Arraiá Luxo",
+    price: "R$ 119,07",
+    image: "src/vestido-junino-bandeiras.webp",
+    link: "https://meli.la/1iGGYy8"
+});
+
+products.push({
+    id: 54,
+    title: "Vestido Caipira Festa Junina São João Quadrilha Adulto Luxo",
+    price: "R$ 254,79",
+    image: "src/vestido-junino-azul-floral.webp",
+    link: "https://meli.la/2h2v4jE"
+});
+
+products.push({
+    id: 55,
+    title: "Vestido Festa Junina Caipira Quadrilha Roupa Xadrez Adulto",
+    price: "R$ 189,00",
+    image: "src/vestido-junino-vermelho-preto-espartilho.webp",
+    link: "https://meli.la/1pjYkJU"
+});
+products.push({
+    id: 56,
+    title: "Vestido Festa Junina Adulto Juvenil Barato Coração São João",
+    price: "R$ 149,90",
+    image: "src/vestido-junino-azul-vermelho.webp",
+    link: "https://meli.la/1RXS4tP"
+});
+
+products.push({
+    id: 57,
+    title: "Vestido Caipira Festa Junina Adulto São João Quadrilha Luxo",
+    price: "R$ 229,90",
+    image: "src/vestido-junino-amarelo-vermelho.webp",
+    link: "https://meli.la/2sTNXny"
+});
+
+products.push({
+    id: 58,
     title: "Biquíni Ripple Frufru Calcinha Sem Amaração Semi Fio",
     price: "R$ 78,99",
     image: "src/biquini-riple.png",
