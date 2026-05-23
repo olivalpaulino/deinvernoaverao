@@ -347,14 +347,6 @@ products.push({
 
 products.push({
     id: 42,
-    title: "Vestido Xadrez-roupas Femininas Pronta Entrega Viscolycra",
-    price: "R$ 142,40",
-    image: "src/vestido-junino-vermelho-xadrez-dark.webp",
-    link: "https://meli.la/1pkXrxx"
-});
-
-products.push({
-    id: 43,
     title: "Vestido Caipira Junina Luxo Adulto (margarete)",
     price: "R$ 149,40",
     image: "src/vestido-junino-amarelo.webp",
