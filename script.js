@@ -505,6 +505,30 @@ products.push({
 });
 
 products.push({
+    id: 62,
+    title: "Sawary Jeans Calça Elastano Lycra Cintura Alta Wide Leg",
+    price: "R$ 161,12",
+    image: "src/calca-jeans-azul.webp",
+    link: "https://meli.la/2QjGK5S"
+});
+
+products.push({
+    id: 63,
+    title: "Calça Jeans Feminina Sawary Wide Leg Alta 4 Bolsos",
+    price: "R$ 160,94",
+    image: "src/calca-jeans-marrom.webp",
+    link: "https://meli.la/1dcoz54"
+});
+
+products.push({
+    id: 64,
+    title: "Blusa Feminina Social Manga Morcego Muscle Tee Luxo",
+    price: "R$ 24,30",
+    image: "src/blusa-manga-morcego.webp",
+    link: "https://meli.la/2C7doZb"
+});
+
+products.push({
     id: 65,
     title: "Biquíni Ripple Frufru Calcinha Sem Amaração Semi Fio",
     price: "R$ 78,99",
