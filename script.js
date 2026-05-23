@@ -347,6 +347,14 @@ products.push({
 
 products.push({
     id: 42,
+    title: "Vestido Festa Junina Xadrez Quadrilha Caipira Arraiá Luxo",
+    price: "R$ 149,40",
+    image: "src/vestido-junino-vermelho2.webp",
+    link: "https://meli.la/2gEkRAS"
+});
+
+products.push({
+    id: 43,
     title: "Biquíni Ripple Frufru Calcinha Sem Amaração Semi Fio",
     price: "R$ 78,99",
     image: "src/biquini-riple.png",
