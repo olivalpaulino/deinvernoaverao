@@ -313,6 +313,14 @@ products.push({
     link: "https://meli.la/2BELGrc"
 });
 
+products.push({
+    id: 38,
+    title: "Biquíni Ripple Frufru Calcinha Sem Amaração Semi Fio",
+    price: "R$ 78,99",
+    image: "src/biquini-riple.png",
+    link: "https://meli.la/1HnUjg3"
+});
+
 
 const productsGrid = document.getElementById('products-grid');
 
