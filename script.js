@@ -347,10 +347,18 @@ products.push({
 
 products.push({
     id: 42,
-    title: "Vestido Festa Junina Xadrez Quadrilha Caipira Arraiá Luxo",
+    title: "Vestido Xadrez-roupas Femininas Pronta Entrega Viscolycra",
+    price: "R$ 142,40",
+    image: "src/vestido-junino-vermelho-xadrez-dark.webp",
+    link: "https://meli.la/1pkXrxx"
+});
+
+products.push({
+    id: 43,
+    title: "Vestido Caipira Junina Luxo Adulto (margarete)",
     price: "R$ 149,40",
-    image: "src/vestido-junino-vermelho2.webp",
-    link: "https://meli.la/2gEkRAS"
+    image: "src/vestido-junino-amarelo.webp",
+    link: "https://meli.la/2zzX9v6"
 });
 
 products.push({
