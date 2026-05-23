@@ -474,6 +474,38 @@ products.push({
 
 products.push({
     id: 58,
+    title: "Blusa Listrada E Xadrez Viscolycra Feminina Manga Japonesa",
+    price: "R$ 30,99",
+    image: "src/blusa-xadrez.webp",
+    link: "https://meli.la/1sifXnJ"
+});
+
+products.push({
+    id: 59,
+    title: "Blusa Blusinha Vichy Feminina Xadrez Cores Romântica Full",
+    price: "R$ 69,80",
+    image: "src/blusa-xadrez-preta.webp",
+    link: "https://meli.la/2LoPcgQ"
+});
+
+products.push({
+    id: 60,
+    title: "Vestido Chemise Xadrez Feminino Flanelado Com Cinto Inverno",
+    price: "R$ 78,90",
+    image: "src/vestido-xadrez.webp",
+    link: "https://meli.la/1oW7MuV"
+});
+
+products.push({
+    id: 61,
+    title: "Camisa Feminina Xadrez Colarinho Italiano Tricoline Estilosa",
+    price: "R$ 78,90",
+    image: "src/camisa-xadrez.webp",
+    link: "https://meli.la/1iQUjKT"
+});
+
+products.push({
+    id: 65,
     title: "Biquíni Ripple Frufru Calcinha Sem Amaração Semi Fio",
     price: "R$ 78,99",
     image: "src/biquini-riple.png",
