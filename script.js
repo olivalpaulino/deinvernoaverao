@@ -537,28 +537,89 @@ products.push({
 });
 
 
-const productsGrid = document.getElementById('products-grid');
+// --- Definição de Categorias ---
+const categories = [
+    { id: 'festa-junina', name: 'Festa Junina & Xadrez' },
+    { id: 'copa', name: 'Copa do Mundo' },
+    { id: 'fitness', name: 'Moda Fitness' },
+    { id: 'inverno', name: 'Moda Inverno' },
+    { id: 'blusas', name: 'Blusas & Croppeds' },
+    { id: 'vestidos', name: 'Vestidos & Festa' },
+    { id: 'jeans', name: 'Calças Jeans' },
+    { id: 'praia', name: 'Moda Praia' },
+    { id: 'personagens', name: 'Personagens' }
+];
 
-// Função para renderizar os produtos na tela
-function renderProducts() {
-    products.forEach(product => {
-        // Criando a estrutura do card
-        // Note que o link (tag <a>) envolve a imagem, título e preço, 
-        // tornando todo o card clicável e levando para o mesmo link.
-        const cardHTML = `
-            <article class="product-card">
-                <a href="${product.link}" target="_blank" class="product-link">
-                    <img src="${product.image}" alt="${product.title}" class="product-image" loading="lazy">
-                    <div class="product-info">
-                        <h2 class="product-title">${product.title}</h2>
-                        <span class="product-price">${product.price}</span>
+const categoryMap = {
+    'festa-junina': [27, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61],
+    'copa': [1, 2, 3],
+    'fitness': [5, 6, 11, 18, 19, 20, 23, 26, 32],
+    'inverno': [4, 14, 16, 17, 21, 22, 24, 25, 33],
+    'blusas': [7, 8, 9, 10, 12, 13, 15, 64],
+    'vestidos': [34, 35, 36],
+    'jeans': [62, 63],
+    'praia': [65],
+    'personagens': [28, 29, 30, 31]
+};
+
+// Atribuindo categorias aos produtos dinamicamente
+products.forEach(product => {
+    for (const [catId, ids] of Object.entries(categoryMap)) {
+        if (ids.includes(product.id)) {
+            product.category = catId;
+            break;
+        }
+    }
+    if (!product.category) product.category = 'blusas'; // Fallback
+});
+
+const categoryNav = document.getElementById('category-nav');
+const mainContent = document.getElementById('main-content');
+
+// Função para renderizar as categorias e os produtos
+function renderCategoriesAndProducts() {
+    // 1. Renderizar os links de navegação
+    categories.forEach(category => {
+        const linkHTML = `<a href="#${category.id}" class="category-link">${category.name}</a>`;
+        categoryNav.innerHTML += linkHTML;
+    });
+
+    // 2. Renderizar as seções de produtos
+    categories.forEach(category => {
+        // Filtrar produtos desta categoria
+        const categoryProducts = products.filter(p => p.category === category.id);
+        
+        // Só renderiza a seção se tiver produtos nela
+        if (categoryProducts.length > 0) {
+            let sectionHTML = `
+                <section class="category-section" id="${category.id}">
+                    <h2 class="section-title">${category.name}</h2>
+                    <div class="products-grid">
+            `;
+            
+            categoryProducts.forEach(product => {
+                sectionHTML += `
+                    <article class="product-card">
+                        <a href="${product.link}" target="_blank" class="product-link">
+                            <img src="${product.image}" alt="${product.title}" class="product-image" loading="lazy">
+                            <div class="product-info">
+                                <h2 class="product-title">${product.title}</h2>
+                                <span class="product-price">${product.price}</span>
+                            </div>
+                        </a>
+                    </article>
+                `;
+            });
+            
+            sectionHTML += `
                     </div>
-                </a>
-            </article>
-        `;
-        productsGrid.innerHTML += cardHTML;
+                </section>
+            `;
+            
+            mainContent.innerHTML += sectionHTML;
+        }
     });
 }
 
-// Chama a função para exibir os produtos assim que o script carrega
-renderProducts();
+// Chama a função para exibir tudo assim que o script carrega
+renderCategoriesAndProducts();
