@@ -530,6 +530,14 @@ products.push({
 
 products.push({
     id: 65,
+    title: "Conjunto Feminino Boiadeira Body Aplicações Strass + Saia Br",
+    price: "R$ 168,72",
+    image: "src/boiadeira.webp",
+    link: "https://meli.la/19S4grv"
+});
+
+products.push({
+    id: 66,
     title: "Biquíni Ripple Frufru Calcinha Sem Amaração Semi Fio",
     price: "R$ 78,99",
     image: "src/biquini-riple.png",
